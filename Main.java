@@ -31,6 +31,10 @@ public class Main {
      */
     public void show() {
         myFrame.show();
+        extracted();
+    }
+
+    private void extracted() {
         canvas.requestFocus();
     }
 
